@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Kalkulator Walut</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="Damian Markowski" content="SitePoint">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+  <table class="currencies-table">
+    <tr>
+      <td>
+        <strong>Podaj kwotę:</strong>
+      </td>
+      <td>
+          <input type="number" name="start-value" min="0" class="start-value" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Waluta początkowa:
+      </td>
+      <td>
+          <select class="select-1"></select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Waluta końcowa:
+      </td>
+      <td>
+          <select class="select-2"></select>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="submit-buttons">
+        <input type="submit" value="Przelicz" class="submit-button" />
+        <div class="result">
+          <span></span>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
